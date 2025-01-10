@@ -1,0 +1,39 @@
+
+[
+	{
+		"id": 1,
+		"img": "https://countrymagazine.com.ar/_next/image?url=https%3A%2F%2Fadmin.countrymagazine.com.ar%2Fuploads%2FRiu0301o_Arrayanes_PNLA_2_aae9d3729c.jpg&w=3840&q=80",
+		"name": "'Parque Nacional 'Los Alerces'",
+		"price": 1200
+	},
+	{
+		"id": 2,
+		"img": "https://www.welcomeargentina.com/paseos/valle_luna/valle-de-la-luna-ischigualasto-1.jpg",
+		"name": "Parque 'Ischigualasto'",
+		"price": 700
+	},
+	{
+		"id": 3,
+		"img": "https://lavidasondosviajes.com/wp-content/uploads/2022/09/donde-alojarse-cataratas-del-iguazu.jpg",
+		"name": "Parque 'Iguazú'",
+		"price": 600
+	},
+	{
+		"id": 4,
+		"img": "https://trayectoriasenviaje.com/wp-content/uploads/2022/04/alojamiento_el_calafate_glaciar.jpg" ,
+		"name": "Parque 'Los Glaciares'",
+		"price": 1900
+	},
+	{
+		"id": 5,
+		"img": "https://www.kayak.com.ar/rimg/dimg/42/2f/addb7f9b-city-4012-16916c05055.jpg?width=1366&height=768&xhint=1627&yhint=1054&crop=true",
+		"name": "Mar del Plata",
+		"price": 350
+	},
+	{
+		"id": 6,
+		"img": "https://www.casitasdelbosque.com.ar/wp-content/uploads/2021/05/arquitectura-centroeuropea-03-1.jpg",
+		"name": "Villa General Belgrano",
+		"price": 400
+	}
+] 
