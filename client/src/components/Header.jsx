@@ -31,13 +31,8 @@ export const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <img
-<<<<<<< HEAD
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXY4vPOw7SGm7ya73hrwviPq942e_uNDpnw&s" width={100}
                         alt="logo"/>
-=======
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXY4vPOw7SGm7ya73hrwviPq942e_uNDpnw&s" width={100}
-						alt="logo"/>
->>>>>>> c7cdeac (retoque)
           <Link to="/" className="navbar-brand">
             Travel Now
           </Link>

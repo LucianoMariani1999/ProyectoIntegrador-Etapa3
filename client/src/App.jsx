@@ -29,7 +29,4 @@ export const App = () => {
     </ShoppingCartProvider>
   );
 };
-<<<<<<< HEAD
 
-=======
->>>>>>> c7cdeac (retoque)

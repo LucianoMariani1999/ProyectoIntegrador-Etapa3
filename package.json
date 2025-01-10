@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "proyectofinal",
-=======
   "name": "Etapa3",
->>>>>>> c7cdeac (retoque)
   "version": "1.0.0",
   "description": "ecommerce rest api",
   "main": "index.js",
@@ -29,8 +25,5 @@
     "nodemon": "^2.0.20",
     "react-icons": "^4.7.1"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c7cdeac (retoque)
+
