@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:#f2d7b2;
+}
+/* //header */
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+/* //productos */
+
+.items-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/****** Item  box *********/
+.item-box {
+  padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000;
+    font-family: Milonga;
+    background-color: #f0ad4e;
+    border-radius: 10px;
+}
+
+.item-box:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item-quantity {
+  color: #fff;
+  background-color: #f0ad4e;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  max-width: 30px;
+  position: relative;
+  
+}
+
+.item-box .nombre {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.item-box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  transition: all .5s;
+}
+
+.item-price {
+  font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.item-add-button {
+  border-radius: 5px;
+  background: none;
+  background-color: #453714;
+  color: #fff;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.item-minus-button {
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.item-plus-button {
+  background-color: #144600;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+.cart-container{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cart-container .cuadro{
+  text-align: center;
+  background-color: #f0ad4e;
+  width: 200px;
+}
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  text-align: center;
+  margin-right: 0;
+  padding: 25px;
+  background: #88eff2;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffcece,
+    #002431
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e5d057, #383401);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
