@@ -19,4 +19,8 @@ const userSchema = new mongoose.Schema({
     },
 })
 
+<<<<<<< HEAD
 export default mongoose.model("Users", userSchema)
+=======
+export default mongoose.model("Users", userSchema)
+>>>>>>> c7cdeac (retoque)

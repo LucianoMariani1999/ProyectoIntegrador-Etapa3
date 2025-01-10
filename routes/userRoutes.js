@@ -10,4 +10,8 @@ route.get("/user/:id", getUserById);
 route.put("/update/user/:id", update);
 route.delete("/delete/user/:id", deleteUser);
 
+<<<<<<< HEAD
 export default route;
+=======
+export default route;
+>>>>>>> c7cdeac (retoque)
